@@ -2,6 +2,8 @@
 
 This is a quick proof of concept of doing a terrain backup and allowing the restore to be painted back as required.
 
+https://user-images.githubusercontent.com/105083894/172049699-0119be91-d7b2-4d4f-9f1f-db5d7780ab14.mp4
+
 - It backups trees, details, textures and heights. Prefabs are not backed up! It does basic remapping on texture/detail/tree prototype order changes on restore, but will not (as of yet) add missing prototypes back in.
 - To use place a empty gameobject and attach the TerrainPaintRestorer script. Add your terrain gameobjects. Click "Backup Terrain". Do some changes to your terrain(s). Click "Paint Restore" and draw on the terrain to restore the specific area.
 
